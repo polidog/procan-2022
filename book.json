@@ -1,0 +1,22 @@
+{
+  "language": "ja",
+  "title": "ジュニアプログラミングキャンプ in 静岡 サーバサイドプログラミングコース",
+  "description": "ジュニアプログラミングキャンプ in 静岡 サーバサイドプログラミングコースの教材",
+  "root": "./docs/",
+  "plugins": [
+    "-lunr", 
+    "-search", 
+    "search-pro-kui", 
+    "search-pro-fixed", 
+    "include-codeblock"
+  ],
+  "pluginsConfig": {
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    },
+    "canonical-link": {
+      "baseURL": "http://localhost:4001"
+    }
+  }
+}
