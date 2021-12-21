@@ -73,7 +73,7 @@ $ git clone https://github.com/polidog/procan-2022-code
 $ cd procan-2022-code
 ```
 
-ckその後dockerコマンドで立ち上げます
+その後dockerコマンドで立ち上げます
 
 
 ```
@@ -98,3 +98,57 @@ hello, php
 ## その他参考資料
 
 [MS公式サイト](https://docs.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-containers)
+
+# Macでの環境構築
+
+※事前にVSCodeをインストールしておいてください。
+
+
+1. Docker Desktop for Macのインストール
+1. プロジェクトのソースコードを取得する
+1. dockerを起動する
+1. ブラウザでアクセスして動作確認する
+
+＃＃ Docker Desktop for Macのインストール
+
+ 下記サイトからDocker Desktop for Macをインストールしてください。
+ https://hub.docker.com/editions/community/docker-ce-desktop-mac
+ 
+ CPUがIntelの方は「Mac with Intel chip」を選択してください。
+ M1の方は「Mac with Apple chip」を選択してください。
+ 
+## プロジェクトのソースコードを取得する
+ 
+ターミナルアプリを起動し以下のコマンドを実行しソースコードを取得してください。
+ 
+ ```
+$ cd
+$ git clone https://github.com/polidog/procan-2022-code
+```
+
+## dockerを起動する
+
+先程取得したソースコードのディレクトリに移動します。
+
+```
+$ cd procan-2022-code
+```
+ 
+その後dockerコマンドで立ち上げます
+
+
+```
+$ docker compose up -d
+```
+
+
+## ブラウザでアクセスして動作確認する
+
+起動が終わったらブラウザで以下のURLにアクセスしてください。
+
+[http://localhost/](http://localhost/)
+
+ 
+ 
+
+
