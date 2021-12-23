@@ -15,7 +15,8 @@
 https://docs.microsoft.com/ja-jp/windows/terminal/install
 
 
-事前にVSCodeをインストールしておいてください。
+VScodeのインストールは[こちら](https://www.javadrive.jp/vscode/install/index1.html) の記事を参考にインストールしてください。
+
 
 
 1. WSLのバージョンを確認
@@ -101,7 +102,7 @@ hello, php
 
 # Macでの環境構築
 
-※事前にVSCodeをインストールしておいてください。
+VSCodeのインストールは[こちら](https://www602.math.ryukoku.ac.jp/Prog1/vscode-mac.html)の記事を参考にしてください。
 
 
 1. Docker Desktop for Macのインストール
