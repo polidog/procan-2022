@@ -30,7 +30,7 @@ $json = json_decode($content, true); // JSON形式になっているので、PHP
 
 echo "<pre>";
 print_r($json);
->
+?>
 ```
 
 これでなんとなくデータが取得できたことがわかります。
