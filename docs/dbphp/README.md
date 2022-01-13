@@ -55,7 +55,10 @@ $stmt = $pdo->query("SELECT * FROM books"); // クエリの実行
 
 URLのクエリパラメータを見て更新するかの判断をします。
 
-`http://localhost/db.php?action=update&id=1`  
+```
+http://localhost/db.php?action=update&id=1
+```
+
 このように
 actionというパラメータに `update`, idには更新したいIDをパラメータにセットすると更新できるという仕様にしてみます。
 
