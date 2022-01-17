@@ -111,7 +111,7 @@ $isbn = '978-4-08-882495-6'; // 検索する本のISBN
 $isbn = $_GET['isbn']
 ```
 
-あとは [http://localhost/book.php?isbn=978-4088770796](http://localhost/book.php?isbn=978-4088770796) アクセスすれば違う漫画の情報が表示されます。
+あとは [http://localhost/book2.php?isbn=978-4088770796](http://localhost/book2.php?isbn=978-4088770796) アクセスすれば違う漫画の情報が表示されます。
 
 ISBNを調べて好きな書籍を表示させてみてください。
 
