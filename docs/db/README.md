@@ -94,7 +94,7 @@ drop table テーブル名
 テーブルを作成したら、次にデータを入れてみましょう。
 
 ```sql
-INSERT INTO books (isbn, name, image, created_at, updated_at) VALUES ('978-4-08-882495-6', "鬼滅の刃 23", 'https://cover.openbd.jp/9784088824956.jpg', now(), now())
+INSERT INTO books (isbn, name, image, created_at, updated_at) VALUES ('978-4-08-882495-6', "鬼滅の刃 23", 'https://cover.openbd.jp/9784088824956.jpg', now(), now());
 ```
 
 ## 登録したデータを表示する
