@@ -48,7 +48,7 @@ https://docs.docker.com/desktop/windows/install/
 上記のサイトよりDocker Desktop for Windowsを落としてきてください。
 
 
-インストール終わったらDocker Desktopを立ち上げて、設定ボタンをクリックします。  
+インストールが終わったらDocker Desktopを立ち上げて、設定ボタンをクリックします。  
 Resourcesをクリックして `Enables integration with additional distros` にチェックを入れてください。  
 またここではUbuntu-20.04を有効にしてください。  
 
