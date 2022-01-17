@@ -1,14 +1,14 @@
 # Web APIの使い方について
 
-WebAPIとはなにか？という疑問はこちらの記事を参照してください。
+Web APIがなにかわからない場合は、こちらの記事を参照してください。
 [Web APIとは何なのか](https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02)
 
-## 今回使う書籍検索のWebAPIについて
+## 今回使う書籍検索のWeb APIについて
 
-今回は[openbd](https://openbd.jp) を通じてWebAPIの使い方を学びます。
+今回は[openbd](https://openbd.jp) を通じてWeb APIの使い方を学びます。
 
 書籍にはかならずISBNというユニークなコードが割り振られます。
-このISBNを検索して書籍情報を取得しします。
+このISBNを検索して書籍情報を取得します。
 
 
 phpではいくつか外部のAPIにリクエストを送る方法がありますが、今回は `file_get_contents` 関数を使ってみましょう。
@@ -33,7 +33,7 @@ print_r($json);
 ?>
 ```
 
-これでなんとなくデータが取得できたことがわかります。
+これでデータが取得できました。
 
 ## HTMLをつかって取得した情報をブラウザで表示する
 
@@ -92,7 +92,7 @@ $json = json_decode($content, true); // JSON形式のデータをPHPの配列に
 毎回ソースコードを変更するわけにもいきません。
 
 
-PHPでは`https://localhost?isbn=xxxxx` という形式で渡せば、ISBNを動的に設定できますよね。
+phpでは`https://localhost?isbn=xxxxx` という形式で渡せば、ISBNを動的に設定できますよね。
 こういった方法はよく使われます。
 
 例えばGoogleの場合は[https://www.google.com/search?q=%E9%9D%99%E5%B2%A1](https://www.google.com/search?q=%E9%9D%99%E5%B2%A1) といった `q=xxxx` というクエリを渡しています。
@@ -108,10 +108,10 @@ $isbn = '978-4-08-882495-6'; // 検索する本のISBN
 
 
 ```php
-$isbn = $_GET['isbn']
+$isbn = $_GET['isbn'];
 ```
 
-あとは [http://localhost/book.php?isbn=978-4088770796](http://localhost/book.php?isbn=978-4088770796) アクセスすれば違う漫画の情報が表示されてるかと思います。
+あとは [http://localhost/book2.php?isbn=978-4088770796](http://localhost/book2.php?isbn=978-4088770796) アクセスすれば違う漫画の情報が表示されます。
 
 ISBNを調べて好きな書籍を表示させてみてください。
 

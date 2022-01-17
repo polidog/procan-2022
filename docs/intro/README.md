@@ -11,7 +11,7 @@
 
 以下の手順で準備します。
 
-事前にwindowsターミナルをインストールしてください。
+事前にWindowsターミナルをインストールしてください。
 https://docs.microsoft.com/ja-jp/windows/terminal/install
 
 
@@ -48,18 +48,16 @@ https://docs.docker.com/desktop/windows/install/
 上記のサイトよりDocker Desktop for Windowsを落としてきてください。
 
 
-インストール終わったらDocker Desktopを立ち上げて、設定ボタンをクリックします。
-Resourcesをクリックして
-
-`Enables integration with additional distros` にチェックを入れてください
-またここではUbuntu-20.04を有効にしてください。
+インストールが終わったらDocker Desktopを立ち上げて、設定ボタンをクリックします。  
+Resourcesをクリックして `Enables integration with additional distros` にチェックを入れてください。  
+またここではUbuntu-20.04を有効にしてください。  
 
 下記のURLに詳しい説明が乗っています。
 https://codeaid.jp/blog/docker-windowswsl2/
 
 ## プロジェクトのソースコードを取得する
 
-windowsターミナルよりUbuntu-20.04を選択し、以下のgitコマンドを使ってソースコードを取得してください。
+WindowsターミナルよりUbuntu-20.04を選択し、以下のGitコマンドを使ってソースコードを取得してください。
 
 ```
 $ cd
@@ -74,7 +72,7 @@ $ git clone https://github.com/polidog/procan-2022-code
 $ cd procan-2022-code
 ```
 
-その後dockerコマンドで立ち上げます
+その後dockerコマンドで立ち上げます。
 
 
 ```
@@ -110,7 +108,7 @@ VSCodeのインストールは[こちら](https://www602.math.ryukoku.ac.jp/Prog
 1. dockerを起動する
 1. ブラウザでアクセスして動作確認する
 
-＃＃ Docker Desktop for Macのインストール
+## Docker Desktop for Macのインストール
 
  下記サイトからDocker Desktop for Macをインストールしてください。
  https://hub.docker.com/editions/community/docker-ce-desktop-mac
@@ -135,7 +133,7 @@ $ git clone https://github.com/polidog/procan-2022-code
 $ cd procan-2022-code
 ```
  
-その後dockerコマンドで立ち上げます
+その後dockerコマンドで立ち上げます。
 
 
 ```

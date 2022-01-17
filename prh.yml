@@ -18,12 +18,12 @@ rules:
     spece:
       - from: ％
         to: "%"
-  - expected: web
+  - expected: Web
     spece:
       - from: web
-        to: web
+        to: Web
       - from: WEB
-        to: web
+        to: Web
   - expected: コケる
     spece:
       - from: コケる
@@ -32,3 +32,7 @@ rules:
     spece:
       - from: github
         to: GitHub
+  - expected: Windows
+    spece:
+      - from: windows
+        to: Windows
